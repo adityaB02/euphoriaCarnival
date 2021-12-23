@@ -1,0 +1,128 @@
+header{
+    height: 12em;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+header img{
+    width: 20%;
+    margin-left: 4em;
+    border: 1mm inset #caf0f8 ;
+}
+header h1 {
+    color: #caf0f8;
+    font-family: 'Mate SC', serif;
+    font-size: 85px;
+    margin-left: 1.6em;
+}
+
+a {
+    font-weight: 550;
+    color: rgb(7, 7, 7);
+    opacity: 1.5;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-left: 45px;
+    margin: 0px;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    /* padding: 0.4em; */
+    background-color: #caf0f8;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+ul li{
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav img{
+    width: 1.7em;
+    margin-top: 0.3em;
+}
+ul:nth-of-type(2){
+    margin-right: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{ 
+    background-color: #7400b8;
+    margin: 0;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+section:nth-of-type(1) {
+    background-image: url(images/party.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em;
+    height: 20em;
+    border: 2mm ridge rgba(170, 50, 220, .6);
+    background-position:bottom;
+    background-color: #b5179e;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:nth-of-type(1) h2{   
+    color: #caf0f8;
+    height: 2.5em;
+    width: 5em;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    transition: box-shadow 0.8s, color 0.8s, transform 0.8s;
+}
+section:nth-of-type(1) h2:hover{
+    color: rgb(55, 240, 247);
+    box-shadow: -3px 3px 10px rgb(55, 240, 247);
+    cursor: pointer;
+    transform: scale3d(1.2,1.2,1.2);
+}
+.team{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.team table{
+    width: auto;
+    margin: 0;
+    border-spacing: 5em 0;
+    column-rule-width: medium;
+    column-rule-color: ivory;
+}
+table th{
+    padding: 3%;
+    font-size: 4em;
+    font-family: 'Pacifico', cursive;
+    color: #caf0f8;
+    font-weight: 500;
+}
+table td{
+    color: ivory;
+    text-align: center;   
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+}
+#about_team{
+    font-size: 1.5em;
+    color: #ffd166;
+}
+.team img{
+    margin: 0;
+    width: 40em;
+    height: 20em;
+    border-radius: 4%;
+    border: 4px solid #ffd166 ;
+}
